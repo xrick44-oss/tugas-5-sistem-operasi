@@ -1,0 +1,7 @@
+$ cd ~/latihan5/januari
+$ ln dataku dataku.ini
+$ ln dataku dataku.juga
+$ ls -l dataku dataku.ini dataku.juga
+
+Link count pada ketiga file adalah 3.
+Karena hard link berbagi inode yang sama, jumlah link di kolom kedua ls -l akan menunjukkan angka 3 untuk semua nama file tersebut.
