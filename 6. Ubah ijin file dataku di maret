@@ -1,0 +1,8 @@
+Semua dapat write, read, execute.
+
+$ cd ~/latihan5/maret
+$ chmod 777 dataku
+$ ls -l dataku
+
+Hasil: -rwxrwxrwx.
+
