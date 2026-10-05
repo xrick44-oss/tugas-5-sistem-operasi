@@ -1,0 +1,12 @@
+Lalu coba buat direktori haha di dalamnya.
+
+$ chmod 440 februari   # user r--, group r--, others ---
+$ ls -ld februari
+$ mkdir februari/haha
+
+Akan muncul error:
+mkdir: cannot create directory ‘februari/haha’: Permission denied
+Karena tidak ada ijin write dan execute pada direktori.
+
+Catatan: Jika yang dimaksud “kepemilikan” adalah owner/group, gunakan chown/chgrp. Namun untuk membatasi hak akses, perintah yang tepat adalah chmod.
+
