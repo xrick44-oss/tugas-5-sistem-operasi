@@ -1,0 +1,7 @@
+User: write, read, execute; group & others: read, execute.
+
+$ cd ~/latihan5/februari
+$ chmod 755 dataku
+$ ls -l dataku
+
+Hasil: -rwxr-xr-x.
