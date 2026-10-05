@@ -1,0 +1,9 @@
+$ cd ~/latihan5/januari
+$ cat > dataku
+Nama: Nama Anda
+NIM: 12345678
+Alamat: Alamat Anda
+(Ctrl+D)
+$ cp dataku ../februari/
+$ cp dataku ../maret/
+$ ls -l ../februari ../maret
