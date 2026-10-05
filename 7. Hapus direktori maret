@@ -1,0 +1,3 @@
+$ cd ~/latihan5
+$ rm -rf maret
+$ ls -l
