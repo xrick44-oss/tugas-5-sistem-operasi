@@ -1,0 +1,5 @@
+$ cd ~/latihan5/januari
+$ chmod g+w,o+w dataku
+$ ls -l dataku
+
+Hasil: -rw-rw-rw- (666) jika sebelumnya 644.
