@@ -1,0 +1,4 @@
+$ ls -l /dev | grep '^c'
+$ find /dev -type c
+
+Contoh yang muncul: /dev/tty0, /dev/console, /dev/null, /dev/random, dll.
