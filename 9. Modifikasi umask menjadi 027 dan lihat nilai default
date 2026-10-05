@@ -1,0 +1,12 @@
+$ umask 027
+$ cd ~/latihan5/januari
+$ touch fileuji
+$ mkdir diruji
+$ ls -l fileuji
+$ ls -ld diruji
+
+Default file: -rw-r----- (640)
+Perhitungan: 666 - 027 = 640
+
+Default direktori: drwxr-x--- (750)
+Perhitungan: 777 - 027 = 750
