@@ -1,0 +1,4 @@
+Misalkan direktori latihan bernama latihan5 di home.
+
+$ mkdir -p ~/latihan5/{januari,februari,maret}
+$ ls -l ~/latihan5
